@@ -1,13 +1,21 @@
 # GigFlow - Smart Leads Dashboard
 
-MERN stack lead management dashboard built for the ServiceHive Full Stack Internship assignment. It includes JWT auth, role-based access control, backend filtering/pagination, debounced search, CSV export, Docker setup, and a responsive React dashboard.
+Full-stack MERN lead management dashboard built for the ServiceHive Full Stack Internship assignment. It includes JWT auth, role-based access control, backend filtering/pagination, debounced search, CSV export, Docker setup, and a responsive React dashboard.
+
+## Live Demo
+
+Frontend: https://gigflow-client-indol.vercel.app
+
+Backend: https://gigflow-p629.onrender.com
+
+> Backend is hosted on Render free tier and may take a few seconds to wake up.
 
 ## Tech Stack
 
 - Frontend: React, TypeScript, TailwindCSS, Vite
 - Backend: Node.js, Express, TypeScript, MongoDB, Mongoose
 - Auth: JWT, bcrypt password hashing
-- DevOps: Docker Compose
+- DevOps: Docker Compose, Vercel, Render, MongoDB Atlas
 
 ## Features
 
@@ -36,11 +44,10 @@ npm install
 2. Copy environment variables:
 
 ```bash
-cp .env.example server/.env
-cp .env.example client/.env
+cp .env.example .env
 ```
 
-3. Update `server/.env` with your MongoDB URI and JWT secret. For local Vite, keep:
+3. Update `.env` with your MongoDB URI and JWT secret. For local development, keep:
 
 ```bash
 VITE_API_URL=http://localhost:5000/api
@@ -148,14 +155,3 @@ Paginated response:
 }
 ```
 
-## Submission Checklist
-
-- GitHub repository with complete source code
-- Hosted frontend and backend links
-- Updated resume
-- 2-minute Loom or screen recording demonstrating auth and hiring/lead workflow
-- Email subject: `MERN Internship Assignment Submission - Your Name`
-
-## Git Note
-
-No commits in this repository include `Co-authored-by` trailers.
