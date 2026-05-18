@@ -10,6 +10,10 @@ Backend: https://gigflow-p629.onrender.com
 
 > Backend is hosted on Render free tier and may take a few seconds to wake up.
 
+## Live Video Recording
+
+Screen Recording: https://drive.google.com/file/d/1Z28RdwIpWwnbjCuam9bBoADokWXA8bDx/view?usp=sharing
+
 ## Tech Stack
 
 - Frontend: React, TypeScript, TailwindCSS, Vite
