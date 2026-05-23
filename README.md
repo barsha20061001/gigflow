@@ -1,6 +1,6 @@
 # GigFlow - Smart Leads Dashboard
 
-Full-stack MERN lead management dashboard built for the ServiceHive Full Stack Internship assignment. It includes JWT auth, role-based access control, backend filtering/pagination, debounced search, CSV export, Docker setup, and a responsive React dashboard.
+Full-stack MERN lead management dashboard . It includes JWT auth, role-based access control, backend filtering/pagination, debounced search, CSV export, Docker setup, and a responsive React dashboard.
 
 ## Live Demo
 
